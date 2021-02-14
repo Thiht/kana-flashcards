@@ -1,0 +1,67 @@
+.card {
+  border-radius: 3px;
+  box-shadow: 0 0 2px #333;
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  width: 250px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.bg-fuji {
+  background: #ecf0f1 url("./images/background-fuji.png") bottom right no-repeat;
+  background-size: contain;
+}
+
+.bg-sakura {
+  background: #ecf0f1 url("./images/background-sakura.png") bottom right
+    no-repeat;
+  background-size: contain;
+}
+
+.bg-koi {
+  background: #ecf0f1 url("./images/background-koi.png") bottom right no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.front,
+.back {
+  font-size: 1.5em;
+  padding: 0.7em 1em;
+}
+
+.back {
+  border-top: 1px dashed #7f8c8d;
+}
+
+.back p {
+  background: #eeeeee;
+  border: 1px solid #f1c40f;
+  border-radius: 3px;
+  margin: 0;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+
+.back.hidden p {
+  background: radial-gradient(circle, #f1c40f 0%, #f39c12 100%);
+  border-radius: 3px;
+  color: transparent;
+  user-select: none;
+  display: block;
+}
+
+.notes {
+  background: #ecf0f1;
+  font-size: 12px;
+  height: 77px;
+  background-image: repeating-linear-gradient(white 0px, white 16px, teal 17px);
+  width: 150px;
+  box-shadow: 0px 0px 5px 0px #888;
+  padding: 0.3em 0.5em;
+  line-height: 16px;
+}
